@@ -4307,7 +4307,7 @@ textarea.form-control-lg {
 .card-group > .card {
   margin-bottom: var(--bs-card-group-margin);
 }
-@media (min-width: 576px) {
+@media (min-width: 100px) {
   .card-group {
     display: flex;
     flex-flow: row wrap;
