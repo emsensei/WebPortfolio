@@ -11772,6 +11772,9 @@ html {
     height: 65vw;
     width: 65vw;
   }
+  .profile-img_about {
+    border-radius: 20px;
+  }
   .profile_about .profile-img_about {
     height: 75vw;
   }
@@ -11780,6 +11783,9 @@ html {
   .profile_about {
     height: 55vw;
     width: 55vw;
+  }
+  .profile-img_about {
+    border-radius: 20px;
   }
   .profile_about .profile-img_about {
     height: 65vw;
@@ -11790,6 +11796,9 @@ html {
     height: 45vw;
     width: 45vw;
   }
+  .profile-img_about {
+    border-radius: 19px;
+  }
   .profile_about .profile-img_about {
     height: 55vw;
   }
@@ -11799,6 +11808,9 @@ html {
     height: 35vw;
     width: 35vw;
   }
+  .profile-img_about {
+    border-radius: 36px;
+  }
   .profile_about .profile-img_about {
     height: 45vw;
   }
@@ -11807,6 +11819,9 @@ html {
   .profile_about {
     height: 25vw;
     width: 25vw;
+  }
+  .profile-img_about {
+    border-radius: 20px;
   }
   .profile_about .profile-img_about {
     height: 35vw;
@@ -11818,7 +11833,40 @@ html {
     height: 20vw;
     width: 20vw;
   }
+  .profile-img_about {
+    border-radius: 61px;
+  }
   .profile_about .profile-img_about {
     height: 25vw;
+  }
+}
+
+.quizimg:hover{
+  transform:scale(2.9);
+  box-shadow: 2px 2px 2px #000;
+}
+
+@media (min-width: 360px) {
+  .quizimg:hover{
+    transform:scale(1.6);
+    box-shadow: 2px 2px 2px #000;
+  }
+}
+@media (min-width: 412px) {
+  .quizimg:hover{
+    transform:scale(1.2);
+    box-shadow: 2px 2px 2px #000;
+  }
+}
+@media (min-width: 576px) {
+  .quizimg:hover{
+    transform:scale(1.2);
+    box-shadow: 2px 2px 2px #000;
+  }
+}
+@media (min-width: 768px) {
+  .quizimg:hover{
+    transform:scale(2.9);
+    box-shadow: 2px 2px 2px #000;
   }
 }
