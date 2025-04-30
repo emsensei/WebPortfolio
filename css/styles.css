@@ -11906,7 +11906,7 @@ animation: reveal 7s infinite;
 
 .animates :last-of-type span {
 margin-left:-355px;
-animation: slidein 7s infinite;
+animation: slidein 7s inherit;
 }
 
 @keyframes showup {
