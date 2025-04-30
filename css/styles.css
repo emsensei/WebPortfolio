@@ -11896,17 +11896,17 @@ html {
   ID/Class should've been used. 
   For a small demo 
   it's okaish for now */
-animation: showup 7s;
+animation: showup 7s infinite;
 }
 
  .animates :last-of-type {
 width:0px;
-animation: reveal 7s;
+animation: reveal 7s infinite;
 }
 
 .animates :last-of-type span {
 margin-left:-355px;
-animation: slidein 7s;
+animation: slidein 7s infinite;
 }
 
 @keyframes showup {
