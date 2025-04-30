@@ -11844,30 +11844,40 @@ html {
 .quizimg:hover{
   transform:scale(2.9);
   box-shadow: 2px 2px 2px #000;
+  border-style: double;
+  border: 20px;
 }
 
 @media (min-width: 360px) {
   .quizimg:hover{
     transform:scale(1.6);
     box-shadow: 2px 2px 2px #000;
+    border-style: double;
+  border: 10px #adb5bd;
   }
 }
 @media (min-width: 412px) {
   .quizimg:hover{
     transform:scale(1.2);
     box-shadow: 2px 2px 2px #000;
+    border-style: double;
+  border: 10px #adb5bd;
   }
 }
 @media (min-width: 576px) {
   .quizimg:hover{
     transform:scale(1.2);
     box-shadow: 2px 2px 2px #000;
+    border-style: double;
+  border: 10px #adb5bd;
   }
 }
 @media (min-width: 768px) {
   .quizimg:hover{
     transform:scale(2.9);
     box-shadow: 2px 2px 2px #000;
+    border-style: double;
+  border: 10px #adb5bd;
   }
 }
 
@@ -11886,17 +11896,17 @@ html {
   ID/Class should've been used. 
   For a small demo 
   it's okaish for now */
-animation: showup 7s infinite;
+animation: showup 7s;
 }
 
  .animates :last-of-type {
 width:0px;
-animation: reveal 7s infinite;
+animation: reveal 7s;
 }
 
 .animates :last-of-type span {
 margin-left:-355px;
-animation: slidein 7s infinite;
+animation: slidein 7s;
 }
 
 @keyframes showup {
